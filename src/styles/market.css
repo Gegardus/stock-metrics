@@ -1,0 +1,7 @@
+.market {
+  background-image: url(../images/stock.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
+  height: 35vh; 
+}
