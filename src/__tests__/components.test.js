@@ -45,4 +45,3 @@ test('if CardDetails renders correctly', () => {
     ),
   ).toMatchSnapshot();
 });
-
