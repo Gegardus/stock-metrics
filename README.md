@@ -2,7 +2,7 @@
 
 # Stock Metrics
 
-> This app displays a list of popular stock market prices. Users can click on selected categories including forex, majors, cryptocurrencies, stocks, and ETFs. Each category lists the latest prices update for the pair. Consumes the [Financial Modeling Prep API] (https://site.financialmodelingprep.com/developer/docs).
+> This app displays a list of popular stock market prices. Users can click on selected categories including forex, majors, cryptocurrencies, stocks, and ETFs. Each category lists the latest prices update for the pair. Consumes the [Financial Modeling Prep API](https://site.financialmodelingprep.com/developer/docs).
 
 This project is part of the Microverse curriculum React Capstone week. The main objective is to understand how create a React app, use components, hooks, state, redux, run tests, and creating professional documentation for app development..
 
