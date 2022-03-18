@@ -5,7 +5,7 @@ import '../../styles/details.css';
 
 const Details = () => (
   <section className="details">
-    <Header />  
+    <Header />
     <CardDetails />
   </section>
 );

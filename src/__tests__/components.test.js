@@ -15,7 +15,7 @@ test('testing if StockCard is rendered', () => {
     changes: '0.23',
     changesPercentage: '0.003',
   };
-  
+
   const history = createMemoryHistory();
   expect(
     render(
@@ -45,3 +45,4 @@ test('if CardDetails renders correctly', () => {
     ),
   ).toMatchSnapshot();
 });
+
