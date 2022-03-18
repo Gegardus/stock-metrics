@@ -2,7 +2,7 @@
 
 # Stock Metrics
 
-> This app displays a list of popular stock market prices. Users can click on selected categories including forex, majors, cryptocurrencies, stocks, and ETFs. Each category lists the latest prices update for the pair. Consumes the [Financial Modeling Prep API](https://site.financialmodelingprep.com/developer/docs).
+> This app displays a list of popular stock market prices. Users can click on selected company to see in details economic activity. The app consumes the [Financial Modeling Prep API](https://site.financialmodelingprep.com/developer/docs).
 
 This project is part of the Microverse curriculum React Capstone week. The main objective is to understand how create a React app, use components, hooks, state, redux, run tests, and creating professional documentation for app development..
 
@@ -19,6 +19,10 @@ This project is part of the Microverse curriculum React Capstone week. The main 
 ## Live Demo
 
 [Stock Metrics](https://arcane-earth-56373.herokuapp.com/)
+
+## Presentation
+
+[Video Presentation](https://www.loom.com/share/bb9cb78726fb41a48b17e2013f6e05eb)
 
 ## Getting Started
 
