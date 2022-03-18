@@ -1,1 +1,11 @@
-/* details  */
+@media (min-width: 768px) {
+  .details {
+    padding: 0 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  .details {
+    padding: 0 5px;
+  }
+}

@@ -1,10 +1,14 @@
- import React, { useState } from 'react';
+import React, { useState } from 'react';
+import { useSelector } from 'react-redux';
+import StockCard from './StockCard';
 import Search from './Search';
-import '../styles/stocklist.css';
+import '../styles/stockList.css';
+import search from '../utils/stockHelper';
 
-
-const StockList = () => { 
+const StockList = () => {
+  const stocks = useSelector((state) => state.stocks);
   const [value, setValue] = useState('');
+
   const handleSearch = (e) => {
     setValue(e.target.value);
   };
@@ -12,7 +16,12 @@ const StockList = () => {
     <>
       <section className="stocks">
         <Search handleSearch={handleSearch} data={value} />
-        <div className="stock-list">    
+        <div className="stock-list">
+          {stocks
+            .filter((stock) => search(stock, value))
+            .map((stock) => (
+              <StockCard key={stock.ticker} stock={stock} />
+            ))}
         </div>
       </section>
     </>
