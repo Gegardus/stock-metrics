@@ -1,1 +1,51 @@
-/* stock-card  */
+.stock-card {
+  padding: 5px 5px 10px 12px;
+  background-color: rgb(166, 232, 207);
+  display: grid;
+  gap: 8px;
+  background-image: url(../images/trend.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 55% 23%;
+  height: 250px;
+  border: 1px solid rgb(130, 130, 240);
+}
+
+.stock-card:hover {
+  cursor: pointer;
+}
+
+.company-name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title-name {
+  font-size: 1rem;
+}
+
+.ticker {
+  background-color: #ebeeed;
+  width: fit-content;
+  padding: 6px 4px;
+  border-radius: 10px;
+  text-align: center;
+  height: 30px;
+}
+
+.forward-arrow {
+  border: 1px solid grey;
+  border-radius: 50%;
+  color: rgb(22, 2, 2);
+  width: 20px;
+  height: 20px;
+}
+
+.green-arrow {
+  color: green;
+}
+
+.red-arrow {
+  color: red;
+}

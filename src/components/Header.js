@@ -1,14 +1,15 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 import { BsFillMicFill } from 'react-icons/bs';
-import { IoIosSettings } from 'react-icons/io';
+import { IoIosSettings, IoIosArrowBack } from 'react-icons/io';
 import { NavLink } from 'react-router-dom';
 import '../styles/header.css';
 
 const Header = ({ home }) => (
   <section className="header">
     {!home && (
-      <NavLink to="/">     
+      <NavLink to="/">
+        <IoIosArrowBack size="25px" color="#133B5C" />
       </NavLink>
     )}
 
