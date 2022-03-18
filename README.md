@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Stock Metrics
 
-## Available Scripts
+> This app displays a list of popular stock market prices. Users can click on selected company to see in details economic activity. The app consumes the [Financial Modeling Prep API](https://site.financialmodelingprep.com/developer/docs).
 
-In the project directory, you can run:
+This project is part of the Microverse curriculum React Capstone week. The main objective is to understand how create a React app, use components, hooks, state, redux, run tests, and creating professional documentation for app development..
 
-### `npm start`
+![screenshot](./src/images/app_screenshot1.png)
+![screenshot](./src/images/app_screenshot2.png)
+![screenshot](./src/images/app_screenshot3.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Built With
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- React
+- Redux
+- Jest
 
-### `npm test`
+## Live Demo
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[Stock Metrics](https://arcane-earth-56373.herokuapp.com/)
 
-### `npm run build`
+## Presentation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[Video Presentation](https://www.loom.com/share/bb9cb78726fb41a48b17e2013f6e05eb)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To get a local copy up and running follow these simple example steps:
 
-### `npm run eject`
+### Prerequisites
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- clone repo: `https://github.com/Gegardus/stock-metrics.git`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- then `cd stock-metrics`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- run `npm install` to install dependencies
 
-## Learn More
+- run `npm start` to enable webpack live server
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contribute
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Contributions, issues, and feature requests are welcome!
 
-### Code Splitting
+Feel free to check the [issues page](https://github.com/Gegardus/stock-metrics/issues)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Author
 
-### Analyzing the Bundle Size
+👤 **Vahan Khachvankian**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- GitHub: [@githubhandle](https://github.com/Gegardus)
+- Twitter: [@twitterhandle](https://twitter.com/Gegardus)
 
-### Making a Progressive Web App
+## Acknowledgements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Original design idea by Nelson Sakwa on Behance., in association with the Creative Commons license of the design.
 
-### Advanced Configuration
+- A great thanks to My coding partners, morning session team, and standup team Partners for their contribution
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- The author highly appreciates the help in the project from all the participants of this week's program - my coding partners, morning session team, and standup team partners - for their contribution.
 
-### Deployment
+## 📝 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](./MIT.md) licensed.
